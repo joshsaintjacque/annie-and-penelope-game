@@ -32,6 +32,7 @@ body {
 .character-selector {
   margin-bottom: 20px;
   text-align: center;
+  display: flex;
 }
 
 .button {
@@ -52,6 +53,7 @@ body {
 
 .control-group {
   width: 45%;
+  min-width: 150px;
   display: inline-block;
   text-align: center;
   font-size: 2em;
