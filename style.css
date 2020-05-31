@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.house {
+  background: url(house.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.character {
+  position: absolute;
+  min-width: 100px;
+}
+
+.annie {
+  width: 15%;
+}
+
+.penelope {
+  width: 10%;
+}
+
+.controls {
+  padding: 20px;
+  width: 25%;
+}
+
+.character-selector {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.button {
+  padding: 40px;
+  background-color: transparent;
+  border: 2px solid pink;
+  margin-right: 10px;
+  color: pink;
+  font-size: 2em;
+  line-height: 0;
+}
+
+.controls .row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.control-group {
+  width: 45%;
+  display: inline-block;
+  text-align: center;
+  font-size: 2em;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked ~ label {
+  color: pink;
+  border-bottom: 2px solid pink;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penelope & Annie</title>
+    <link href="style.css" rel="stylesheet" />
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+  <body>
+    <div class="house">
+      <img class="annie character" src="annabelle.jpg" />
+      <img class="penelope character" src="penelope.jpg" />
+      <div class="controls">
+        <div class="character-selector">
+          <div class="character-selector__label">
+            Select a character:
+          </div>
+          <div class="control-group">
+            <input
+              type="radio"
+              id="annie"
+              name="character"
+              value="annie"
+              checked
+            />
+            <label for="annie">Annabelle</label><br />
+          </div>
+          <div class="control-group">
+            <input
+              type="radio"
+              id="penelope"
+              name="character"
+              value="penelope"
+            />
+            <label for="penelope">Penelope</label><br />
+          </div>
+        </div>
+
+        <div class="steering">
+          <div class="top row">
+            <button
+              class="up button"
+              onmousedown="startMovingPlayer('up')"
+              onmouseup="stopMovingPlayer()"
+            >
+              ʌ
+            </button>
+          </div>
+          <div class="middle row">
+            <button
+              class="left button"
+              onmousedown="startMovingPlayer('left')"
+              onmouseup="stopMovingPlayer()"
+            >
+              <
+            </button>
+            <button
+              class="right button"
+              onmousedown="startMovingPlayer('right')"
+              onmouseup="stopMovingPlayer()"
+            >
+              >
+            </button>
+          </div>
+          <div class="bottom row">
+            <button
+              class="down button"
+              onmousedown="startMovingPlayer('down')"
+              onmouseup="stopMovingPlayer()"
+            >
+              v
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
