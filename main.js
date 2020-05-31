@@ -6,11 +6,11 @@ document.addEventListener("DOMContentLoaded", function () {
   initializeCharacters();
 
   function initializeCharacters() {
-    annie.style.left = "200px";
-    annie.style.top = "700px";
+    annie.style.left = "400px";
+    annie.style.top = "200px";
 
-    penelope.style.left = "600px";
-    penelope.style.top = "700px";
+    penelope.style.left = "1000px";
+    penelope.style.top = "200px";
   }
 });
 
